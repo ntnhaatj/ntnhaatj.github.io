@@ -11,15 +11,16 @@ author: ntnhaatj
 - db
 - object storage
 <figure>
-    <img src="/images/20220404/system_overview.png" width="50%" height="50%">
-    <figcaption>system development overview</figcaption>
+    <img src="/images/20220404/system_overview.png" width="100%" height="100%">
 </figure>
 
 -----
 # Dev deployment
 - set `DJANGO_SETTINGS_MODULE=settings.dev`
+
 ## database
 - sqlite
+
 ```python
 DATABASES = {
     'default': {
@@ -28,8 +29,10 @@ DATABASES = {
     }
 }
 ```
+
 ## static storage
 - local storage
+
 ```python
 # settings/dev.py
 
@@ -44,6 +47,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # relative URL to access static files, ie: http://domain.com/static/app.css
 STATIC_URL = '/static/'
 ```
+
 ## media storage
 - the same as `static`
 
@@ -59,6 +63,7 @@ STATIC_URL = '/static/'
 - triggered `github actions` on every push to `main`, `feat/*`, `dev/*` branch and manually dispatch
 - using github secrets to store secret keys for deployment
 - example for github action workflow:
+
 ```yaml
 name: CI/CD
 
@@ -108,10 +113,10 @@ jobs:
         ...
 ```
 
-
 ## hosting
 - heroku (using github actions `akhileshns/heroku-deploy@v3.12.12` as above to deploy, free pricing plan - `dyno` type)
 - gunicorn (wsgi application)
+
 ```shell
 # ./Procfile
 
@@ -120,6 +125,7 @@ release: python manage.py migrate
 ```
 
 - collect static (this step is auto-executed by heroku). It will collect al static file (both `user's and django` static) into `STATIC_ROOT` dir
+
 ```shell
 $ python manage.py collectstatic --noinput
 ```
@@ -130,6 +136,7 @@ $ python manage.py collectstatic --noinput
 
 ## object storage (media, static files)
 - cloudinary (media)
+
 ```python
 # settings/staging.py
 
@@ -148,6 +155,7 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 ```
 
 - whitenoise (static files)
+
 ```python
 # settings/staging.py
 
