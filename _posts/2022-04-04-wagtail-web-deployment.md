@@ -2,8 +2,9 @@
 layout: post
 title:  "Wagtail Web Deployment"
 date:   2022-04-04 08:00:00 +0700
-categories: deployment, web, working
+categories: work
 author: ntnhaatj
+tags: work web
 ---
 
 # System overview

@@ -4,6 +4,7 @@ title:  "Capture Customer Requirements"
 date:   2022-03-09 12:26:28 +0700
 categories: work
 author: ntnhaatj
+tags: work
 ---
 
 Hi guys, today I want to share and summarize what I have learned about the method for capturing customer requirements effectively.
