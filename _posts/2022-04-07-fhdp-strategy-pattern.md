@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[First Head Design Patterns] Strategy Pattern"
+title:  "[Head First Design Patterns] Strategy Pattern"
 date:   2022-04-07 08:00:00 +0700
 categories: work
 author: ntnhaatj
