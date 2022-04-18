@@ -15,4 +15,4 @@ tags: work designpattern
 - define a one-to-many dependency relationship so if the state of one object changed, it would notify to all of its depend objects
 
 ## Implementation
-- github link
+- [source code](https://github.com/ntnhaatj/head-first-design-patterns/tree/master/observerpatttern)

@@ -17,4 +17,4 @@ tags: work designpattern
 - decoupling requester and receiver actions
 
 ## Implementation
-- (github link)
+- [source code](https://github.com/ntnhaatj/head-first-design-patterns/tree/master/commandpatttern)

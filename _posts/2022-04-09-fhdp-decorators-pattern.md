@@ -38,5 +38,7 @@ tags: work designpattern
 
 - if we rely on `inheritance`, our behaviour can only be determined statically `at compile time`. `With composition`, we can mix and match decorators any way we like `at runtime`
 
+- - [source code](https://github.com/ntnhaatj/head-first-design-patterns/tree/master/decoratorpattern)
+
 ## Java I/O decorators
 

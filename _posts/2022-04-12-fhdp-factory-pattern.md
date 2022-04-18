@@ -25,3 +25,5 @@ tags: work designpattern
 
 ## Implementation
 - The idea is just letting to other classes implement object creation against on provided parameters 
+- [source code](https://github.com/ntnhaatj/head-first-design-patterns/tree/master/factorypattern)
+

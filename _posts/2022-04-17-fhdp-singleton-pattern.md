@@ -13,4 +13,4 @@ tags: work designpattern
 
 ## Implementation
 - is aware about dealing with multithreading, synchronize `getInstance()` method if needed
-- [github](https://github.com/ntnhaatj/head-first-design-patterns/blob/master/singpletonpatttern)
+- [source code](https://github.com/ntnhaatj/head-first-design-patterns/tree/master/singletonpattern)
