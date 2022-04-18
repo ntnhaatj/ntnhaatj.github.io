@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Head First Design Patterns] Decorators Pattern"
-date:   2022-04-07 08:00:00 +0700
+date:   2022-04-09 08:00:00 +0700
 categories: work
 author: ntnhaatj
 tags: work designpattern

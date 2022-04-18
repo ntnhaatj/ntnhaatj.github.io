@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Head First Design Patterns] Observer Pattern"
-date:   2022-04-07 08:00:00 +0700
+date:   2022-04-08 08:00:00 +0700
 categories: work
 author: ntnhaatj
 tags: work designpattern
