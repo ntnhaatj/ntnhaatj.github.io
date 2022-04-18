@@ -51,6 +51,7 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
   - README.md
+  - generator.py
 
 permalink: /:categories/:title
 baseurl: /
