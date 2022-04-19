@@ -8,6 +8,9 @@ tags: work designpattern
 ---
 
 # The observe pattern
+
+![Observer Pattern](/images/20220407/observer_pattern.png)
+
 ## Design principles
 - Strive for loosely couple designs between objects that interact (allow us to build flexible OO system that can handle many changes because they minimize the interdependency between objects)
 
