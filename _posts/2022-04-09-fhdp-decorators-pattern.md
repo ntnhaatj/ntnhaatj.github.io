@@ -41,4 +41,10 @@ tags: work designpattern
 - - [source code](https://github.com/ntnhaatj/head-first-design-patterns/tree/master/decoratorpattern)
 
 ## Java I/O decorators
+- An example of builtin Java I/O decorator
 
+![Java IO](/images/20220407/decorator_pattern_javaio_2.png)
+
+- concrete components implements `InputStream` interface and implemented concrete decorators follow the same type
+
+![Java IO](/images/20220407/decorator_pattern_javaio_1.png)
