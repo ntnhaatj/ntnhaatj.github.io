@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "hfdp template method pattern"
+title:  "[Head First Design Patterns] Template Method Pattern"
 date:   2022-04-22
 categories: work
 author: ntnhaatj
